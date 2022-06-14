@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Profile-Portfolio/static/css/main.88a52311.chunk.css",
-    "main.js": "/Profile-Portfolio/static/js/main.8d98026b.chunk.js",
-    "main.js.map": "/Profile-Portfolio/static/js/main.8d98026b.chunk.js.map",
+    "main.js": "/Profile-Portfolio/static/js/main.f4205875.chunk.js",
+    "main.js.map": "/Profile-Portfolio/static/js/main.f4205875.chunk.js.map",
     "runtime-main.js": "/Profile-Portfolio/static/js/runtime-main.4b908a89.js",
     "runtime-main.js.map": "/Profile-Portfolio/static/js/runtime-main.4b908a89.js.map",
     "static/css/2.c92fe61d.chunk.css": "/Profile-Portfolio/static/css/2.c92fe61d.chunk.css",
@@ -151,14 +151,14 @@
     "static/media/webix.99dfb57f.svg": "/Profile-Portfolio/static/media/webix.99dfb57f.svg",
     "static/media/wolframalpha.24726d34.svg": "/Profile-Portfolio/static/media/wolframalpha.24726d34.svg",
     "static/media/wordpress.1c0bf6df.svg": "/Profile-Portfolio/static/media/wordpress.1c0bf6df.svg",
-    "static/media/yellowTheme-boy.9ddb06c0.svg": "/Profile-Portfolio/static/media/yellowTheme-boy.9ddb06c0.svg",
-    "static/media/yellowTheme-girl.641f7b0b.svg": "/Profile-Portfolio/static/media/yellowTheme-girl.641f7b0b.svg"
+    "static/media/yellowTheme-boy.3f81ccbe.svg": "/Profile-Portfolio/static/media/yellowTheme-boy.3f81ccbe.svg",
+    "static/media/yellowTheme-girl.9ddb06c0.svg": "/Profile-Portfolio/static/media/yellowTheme-girl.9ddb06c0.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b908a89.js",
     "static/css/2.c92fe61d.chunk.css",
     "static/js/2.2b866340.chunk.js",
     "static/css/main.88a52311.chunk.css",
-    "static/js/main.8d98026b.chunk.js"
+    "static/js/main.f4205875.chunk.js"
   ]
 }
