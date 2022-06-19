@@ -22,7 +22,7 @@ function App() {
 
           <Redirect to="/" />
         </Switch>
-      </Router>
+      </Router> 
       <BackToTop />
     </div>
   );
