@@ -1,23 +1,23 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Sukkur IBA',
-        jobtitle: 'Web Developer',
-        startYear: '2018',
-        endYear: 'Present'
+        company: 'EduTrainia',
+        jobtitle: 'Software Engineer',
+        startYear: '2022',
+        endYear: '2023'
     },
     {
         id: 2,
-        company: 'Sukkur IBA',
-        jobtitle: 'Graphic Designer',
-        startYear: '2016',
-        endYear: 'Present'
+        company: 'Yadgar Safar',
+        jobtitle: 'MERN Stack Developer',
+        startYear: '2021',
+        endYear: '2022'
     },
     {
         id: 3,
-        company: 'Sukkur IBA',
-        jobtitle: 'SEO Digital Marketing',
+        company: 'Public Speaking & Literary Society',
+        jobtitle: 'Volunteer',
         startYear: '2019',
-        endYear: 'Present'
+        endYear: '2020'
     },
 ]

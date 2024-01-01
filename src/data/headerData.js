@@ -4,7 +4,7 @@ import madan from '../components/images/madan.png';
 export const headerData = {
     name: "Madan Lal",
     title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    desciption:"Madan Lal is a graduated scholar at Sukkur IBA University, is pursuing his education through the OGDCL National Talent Hunt Program scholarship. He describe himself as a committed, driven, and reliable individual with a keen interest in web development and a passion for crafting improved website designs.",
     image: madan,
     resumePdf: resume
 }

@@ -161,7 +161,7 @@ function Landing() {
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p style={{textAlign:'justify'}}>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
@@ -184,6 +184,16 @@ function Landing() {
                             >
                                 <Button className={classes.contactBtn}>
                                     Contact
+                                </Button>
+                            </NavLink>
+                            <NavLink
+                                to='/projects'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <Button className={classes.resumeBtn}>
+                                    My Projects
                                 </Button>
                             </NavLink>
                         </div>

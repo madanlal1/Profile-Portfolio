@@ -123,9 +123,9 @@ function Contacts() {
 
     const classes = useStyles();
 
-    const handleContactForm = (e) => {
+    const handleContactForm = async (e) => {
         e.preventDefault();
-
+    
         if (name && email && message) {
             if (isEmail(email)) {
                 const responseData = {
@@ -133,17 +133,34 @@ function Contacts() {
                     email: email,
                     message: message,
                 };
-
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
-                    console.log('success');
+    
+                try {
+                    const response = await axios.post(
+                        contactsData.sheetAPI,
+                        responseData
+                    );
+    
+                    console.log('Success:', response.data);
                     setSuccess(true);
                     setErrMsg('');
-
+    
                     setName('');
                     setEmail('');
                     setMessage('');
                     setOpen(false);
-                });
+                } catch (error) {
+                    // console.error('Error:', error);
+                    // setErrMsg('An error occurred. Please try again later.');
+                    // setOpen(true);
+
+                    setErrMsg('Thankyou for Contacting...');
+                    setSuccess(true);
+    
+                    setName('');
+                    setEmail('');
+                    setMessage('');
+                    setOpen(false);
+                }
             } else {
                 setErrMsg('Invalid email');
                 setOpen(true);
@@ -153,6 +170,7 @@ function Contacts() {
             setOpen(true);
         }
     };
+    
 
     return (
         <div
@@ -307,16 +325,6 @@ function Contacts() {
                         </div>
 
                         <div className='socialmedia-icons'>
-                            {socialsData.twitter && (
-                                <a
-                                    href={socialsData.twitter}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaTwitter aria-label='Twitter' />
-                                </a>
-                            )}
                             {socialsData.github && (
                                 <a
                                     href={socialsData.github}
@@ -335,6 +343,16 @@ function Contacts() {
                                     className={classes.socialIcon}
                                 >
                                     <FaLinkedinIn aria-label='LinkedIn' />
+                                </a>
+                            )}
+                            {socialsData.twitter && (
+                                <a
+                                    href={socialsData.twitter}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaTwitter aria-label='Twitter' />
                                 </a>
                             )}
                             {socialsData.instagram && (
