@@ -186,7 +186,9 @@ function Landing() {
                                     Contact
                                 </Button>
                             </NavLink>
-                            <NavLink
+                        </div>
+                        <div className='lcr-buttonContainer'>
+                        <NavLink
                                 to='/projects'
                                 smooth={true}
                                 spy='true'
