@@ -3,8 +3,8 @@ import madan from '../components/images/madan.png';
 
 export const headerData = {
     name: "Madan Lal",
-    title: "Web Developer",
-    desciption:"Madan Lal is a graduated scholar at Sukkur IBA University, is pursuing his education through the OGDCL National Talent Hunt Program scholarship. He describe himself as a committed, driven, and reliable individual with a keen interest in web development and a passion for crafting improved website designs.",
+    title: "",
+    desciption:(<>Greetings! I am Madan Lal, a Software Engineering graduate from <strong>Sukkur IBA University</strong> through the <strong>OGDCL National Talent Hunt Program</strong> scholarship. I present myself as a dedicated, motivated, and trustworthy individual, passionate about frontend development and CMS website design, with a strong eagerness to create better and more engaging websites.</>),
     image: madan,
     resumePdf: resume
 }

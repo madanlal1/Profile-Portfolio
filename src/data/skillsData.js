@@ -2,18 +2,12 @@
     'HTML',
     'CSS',
     'Javascript',
-    'Figma',
-    'React',
-    'Node',
-    'Express',
-    'MySQL',
-    'MongoDB',
-    'Photoshop',
-    'Illustrator',
-    'Adobe XD',
-    'C++',
-    'C#',
-    'Java',
+    'WordPress', 
+    'Shopify', 
+    'Bootstrap', 
+    'MUI', 
+    'Git',
+    'GitHub'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

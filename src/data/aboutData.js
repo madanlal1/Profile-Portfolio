@@ -1,14 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: `"Greetings,
-
-    This is me Madan Lal scholar of Sukkur IBA University, studying under OGDCL National Talent Hunt Program scholarship. 
-    I present myself as a dedicated, motivated, and trusted individual, having passionate in web development and love to design better websites.
-    
-    "`,
-    description2: `"Nowadays I'm working with the Web development field to play with the multiple web pages. I am passionate to work with web development. It is my passion and profession to make the work in flow. 
-    Well I'm adeptly work with HTML, CSS, Bootstrap, JavaScript, JQuery, React and Node JS.
-    
-    #ThanksRegards😊"`,
+    description1: "A dynamic and results-driven professional, proudly graduated from Sukkur IBA University through the prestigious OGDCL National Talent Hunt Program. Ready to turn challenges into groundbreaking solutions, passionate about innovation and growth. Eager to contribute skills, learn on the go, and drive success in a forward-thinking team.",
+    description2: "Nowadays, I am working in CMS development, designing WordPress and Shopify websites. I am passionate about frontend development and CMS website design — it is both my passion and my profession to deliver the best websites. I am proficient in WordPress, Shopify, HTML5, CSS3, JavaScript, ECMAScript, Bootstrap, Material UI, Git, and GitHub.",
     image: 2
 }

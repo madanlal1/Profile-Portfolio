@@ -85,7 +85,7 @@
 
 .lcr--content p {
   margin-top: 1.45rem;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.15rem;
   opacity: 0.7;
 }
@@ -118,7 +118,7 @@
   .lcr--content p {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 1rem;
   }
 

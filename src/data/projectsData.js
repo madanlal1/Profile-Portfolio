@@ -8,9 +8,58 @@ import seven from '../assets/svg/projects/seven.png'
 import eight from '../assets/svg/projects/eight.png'
 import ninth from '../assets/svg/projects/ninth.png'
 import tenth from '../assets/svg/projects/tenth.png'
+import darosoft from '../assets/svg/projects/darosoft.png'
+import alifa from '../assets/svg/projects/alifa.png'
+import easydatastructures from '../assets/svg/projects/easydatastructures.png'
+
 
 
 export const projectsData = [
+    {
+        id: 1,
+        projectName: 'DaroSoft',
+        projectDesc: 'DaroSoft, built on the WordPress CMS, is a dynamic software house offering professional website development services, delivering seamless and customizable digital solutions.',
+        tags: ['WordPress', 'CSS', 'JavaScript'],
+        code: 'https://darosoft.com/',
+        demo: 'https://darosoft.com/',
+        image: darosoft
+    },
+    {
+        id: 2,
+        projectName: 'The Alifa',
+        projectDesc: 'The Alifa, built on the WordPress CMS, is a dynamic digital agency delivering expert marketing solutions to boost visibility, engagement, and growth.',
+        tags: ['WordPress', 'CSS', 'JavaScript'],
+        code: 'https://thealifa.com/',
+        demo: 'https://thealifa.com/',
+        image: alifa
+    },
+    {
+        id: 3,
+        projectName: 'Easy Data Structures',
+        projectDesc: 'Easy Data Structures, built with React JS, makes learning data structures simple and engaging through interactive animations and visualizations.',
+        tags: ['React JS'],
+        code: 'https://easydatastructures.com/',
+        demo: 'https://easydatastructures.com/',
+        image: easydatastructures
+    },
+    {
+        id: 4,
+        projectName: 'Easy Data Structures',
+        projectDesc: '',
+        tags: ['React JS'],
+        code: 'https://github.com/madanlal1/Online-Code-Editor',
+        demo: 'https://madanlal1.github.io/Online-Code-Editor/',
+        image: one
+    },
+
+
+
+
+
+
+
+
+
     {
         id: 1,
         projectName: 'Online Code Editor',

@@ -13,7 +13,7 @@ export const achievementData = {
             id : 2,
             title : 'National Talent Hunt Program',
             details : 'National Talent Hunt Program (NTHP) scholarship is sponsored by OGDCL at Sukkur IBA University.',
-            date : 'Aug, 2017',
+            date : 'Aug, 2018',
             field : 'Software Engineering',
             image : 'https://upload.wikimedia.org/wikipedia/commons/d/d3/SIBA_Logo.jpg'
         },

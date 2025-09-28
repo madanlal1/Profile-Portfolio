@@ -58,6 +58,9 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
+import shopify from '../assets/svg/skills/shopify.svg'
+import mui from '../assets/svg/skills/mui.svg'
+import github from '../assets/svg/skills/github.svg'
 
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
@@ -234,6 +237,12 @@ export const skillsImage = (skill) => {
             return node;
         case 'express':
             return express;
+        case 'shopify':
+            return shopify;
+        case 'github':
+            return github;
+        case 'mui':
+            return mui;
         default:
             break;
     }

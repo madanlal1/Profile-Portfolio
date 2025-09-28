@@ -3,7 +3,7 @@ export const educationData = [
         id: 1,
         institution: 'Sukkur IBA University',
         course: 'Bechlor in Software Engineering',
-        startYear: '2017',
+        startYear: '2018',
         endYear: '2023'
     },
     {
